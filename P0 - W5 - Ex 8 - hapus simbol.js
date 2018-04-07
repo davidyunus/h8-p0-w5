@@ -1,7 +1,7 @@
 function hapusSimbol(str) {
-  var temp = str.match(/[a-z 0-9]/g);
+  var deleteSymbol = str.match(/[a-z0-9]/g);
   
-  return temp.join('');
+  return deleteSymbol.join('');
 }
 
 // TEST CASES
